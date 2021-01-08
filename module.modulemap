@@ -1,0 +1,7 @@
+module CWebP [system] {
+    header "/usr/local/include/webp/encode.h"
+    header "/usr/local/include/webp/decode.h"
+    header "/usr/local/include/webp/types.h"
+    link "libwebp"
+    export *
+}
